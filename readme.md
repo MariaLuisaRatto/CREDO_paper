@@ -65,23 +65,11 @@ In general, the creation of a Dockerfile, the core element for the creation of a
 CREDO is organized in two modules namely CREDOengine and CREDOgui.
 
 # Results
-##CREDOengine
+## CREDOengine
 
-Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
-$a=2$
-Double dollars make self-standing equations:
-
-$$\Theta(x) = \left\{\begin{array}{l}
-0\textrm{ if } x < 0\cr
-1\textrm{ else}
-\end{array}\right.$$
-
-You can also use plain \LaTeX for equations
-\begin{equation}\label{eq:fourier}
-\hat f(\omega) = \int_{-\infty}^{\infty} f(x) e^{i\omega x} dx
-\end{equation}
-and refer to \autoref{eq:fourier} from text.
-
+CREDOengine allows the construction of Dockerfile/s embedding Python and/or R. The architecture of CREDOengine is organized in three layers, Fig.1.
+Layer 0 provides the possibility to create a Docker image embedding Python (0_PythonPackages) or R (0_RPackages). Layer 1 (1_mergeDocker) allows user to merge a Python Dockerfile with a R Dockerfile, previously generated at Layer 0. Layer 2, it provides the possibility to select various programming graphical interfaces (Jupyter lab, Jupyter notebook, Rstudio and Visual Studio), which can be accessed, in the built docker container, via web application (http://localhost:8888). Layer 3 (3_VMInDocker) configures the virtual environment to execute docker or singularity instances within a docker container, Fig. 1. This specific feature is useful in case the running docker container, requires executing the software embedded in another docker or in a singularity instance.
+![alt text](http://url/to/img.png)
 # Citations
 
 Citations to entries in paper.bib should be in
