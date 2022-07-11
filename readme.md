@@ -108,7 +108,7 @@ CREDOgui facilitates the configuration of the various layers of the CREDOengine,
 <p align="left">
 <img src="Figs/figs3.png" width="900" title="Fig2">
 
-<em>Screenshot of the CREDOgui. In the CREDOgui the dependencies among the different layers are more stringent, specifically any layer depends on the previous one</em> 
+<em>Fig.3. Screenshot of the CREDOgui. In the CREDOgui the dependencies among the different layers are more stringent, specifically any layer depends on the previous one</em> 
 
 </p>
 CREDOgui can be accessed via web application (http://localhost:3000), executing on a computer dockerFileGenerator.sh (for Linux/OSX users) or dockerFileGenerator.cmd (for Windows users) script, which is available at CREDOgui GitHub. For Python and R in layer 0 the libraries to be installed can be defined using the button “Config”. In layer 1, the user must define the name of the folder in which the merged Dockerfiles will be stored. In layer 2, the user must define the final name of the Docker image and select the GUI of interest. In case of a programming GUI is selected, the final name of the folder, where the Dockerfile is saved, also includes the name of the available GUI. After building and running the docker container the embedded GUI will be accessible via web application (http://localhost:8888), In layer 3, it is possible to install a Docker or a Singularity instance in the built Docker image.
