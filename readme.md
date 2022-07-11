@@ -59,25 +59,10 @@ Containerization is a way of wrapping software, OS libraries and dependencies re
 
 # Introduction
 
-`Gala` is an Astropy-affiliated Python package for galactic dynamics. Python
-enables wrapping low-level languages (e.g., C) for speed without losing
-flexibility or ease-of-use in the user-interface. The API for `Gala` was
-designed to provide a class-based and user-friendly interface to fast (C or
-Cython-optimized) implementations of common operations such as gravitational
-potential and force evaluation, orbit integration, dynamical transformations,
-and chaos indicators for nonlinear dynamics. `Gala` also relies heavily on and
-interfaces well with the implementations of physical units and astronomical
-coordinate systems in the `Astropy` package [@astropy] (`astropy.units` and
-`astropy.coordinates`).
-
-`Gala` was designed to be used by both astronomical researchers and by
-students in courses on gravitational dynamics or astronomy. It has already been
-used in a number of scientific publications [@Pearson:2017] and has also been
-used in graduate courses on Galactic dynamics to, e.g., provide interactive
-visualizations of textbook material [@Binney:2008]. The combination of speed,
-design, and support for Astropy functionality in `Gala` will enable exciting
-scientific explorations of forthcoming data releases from the *Gaia* mission
-[@gaia] by students and experts alike.
+`Reproducibility is a critical problem in the Bioinformatics field [1]. Docker engine [2] is an optimal tool to deal with reproducibility issues [3]. Nowadays, R [4] and Python [5] are the most used programming approaches to create bioinformatics tools [6] and workflows [7-9]. Furthermore, environment managers like Conda [10] and Bioconda [11] make easy the coexistence of different Python computing environments and they are frequently used within the bioinformatics community. On the R side, Bioconductor [12, 13] provides the deployment of software, providing rigorous and reproducible analysis of data from biological assays. Together with Github [14], Bioconductor represents one of the most used ways to distribute tools for the bioinformatics community.
+Conda and Bioconda, together with packages distributed using Bioconductor and GitHub, can be exploited for the creation of complex docker containers [1, 6]. Although very useful, the above tools have some critical points: i. Bioconductor provides only version control for Bioconductor packages, underling software, e.g. R-CRAN packages, are not version controlled. ii. GitHub packages do not provide version control for the software inherited by the GitHub package and GitHub links might be unstable, e.g. a GitHub package can be deleted, moved or renamed without providing a stable tracking of the application updates. iii. Conda and Bioconda environment setup in Docker containers might not be easy to handle by not-expert people [15, 16].
+In general, the creation of a Dockerfile, the core element for the creation of a docker image, including heterogeneous packages and environments (e.g. Bioconductor, Conda, etc.), is the most critical point for the generation of a docker image, being at the same time complex and time consuming, especially for not experienced people. CREDO, Customizable REproducible DOckerfile generator, software fixes some of the issues and difficulties described above, since it provides an easy way to build and customize a Dockerfile. CREDO provides at the same time a reproducible infrastructure and an easy way to distribute complete computing analysis workflow, e.g. docker images created by CREDO are perfectly suited to facilitate the distribution of complex code to reviewers or providing ready to go vignettes and tutorials (see supplementary information file). 
+CREDO is organized in two modules namely CREDOengine and CREDOgui.
 
 # Mathematics
 
