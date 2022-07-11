@@ -7,31 +7,31 @@ tags:
   - User Iinterface 
 authors:
   - name: Simone Alessandri'
-    equal-contrib: true 
+    equal-contrib: 1 
     affiliation: 1
   - name: Rabellino Sergio
-    equal-contrib: true 
+    equal-contrib: 2 
     affiliation: 2
   - name: Sandro Contaldo
-    equal-contrib: true 
+    equal-contrib: 3 
     affiliation: 2
   - name: Maria Ratto
-    equal-contrib: true
+    equal-contrib: 3
     affiliation: 4
   - name: Gabriele Piacenti 
-    equal-contrib: true
+    equal-contrib: 3
     affiliation: 5
   - name: Qi Wang
-    equal-contrib: true 
+    equal-contrib: 3 
     affiliation: 3
   - name: Marco Beccuti
-    equal-contrib: true
+    equal-contrib: 4
     affiliation: 2
   - name: Raffaele Adolfo Calogero
-    equal-contrib: true 
+    equal-contrib: 4 
     affiliation: 4
   - name: Luca Alessandri
-    equal-contrib: true 
+    equal-contrib: 5 
     affiliation: "3,4"
   - name: Author with no affiliation
     corresponding: true
