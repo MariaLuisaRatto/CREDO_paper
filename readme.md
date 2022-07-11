@@ -1,29 +1,52 @@
 ---
 title: 'Gala: A Python package for galactic dynamics'
 tags:
-  - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - Docker 
+  - Reproducibility
+  - Docker generator
+  - User Iinterface 
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0000-0000-0000
-    equal-contrib: true
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID
+  - name: Simone Alessandri'
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 1
+  - name: Rabellino Sergio
     equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
     affiliation: 2
+      - name: Sandro Contaldo
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 2
+      - name: Maria Ratto
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 4
+      - name: Gabriele Piacenti 
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 5
+      - name: Qi Wang
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 3
+      - name: Marco Beccuti
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 2
+      - name: Raffaele Adolfo Calogero
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 4
+       - name: Luca Alessandri
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: "3,4"
   - name: Author with no affiliation
     corresponding: true # (This is how to denote the corresponding author)
     affiliation: 3
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University, USA
+ - name: Politechnic of Turin, Torino, Italy
    index: 1
- - name: Institution Name, Country
+ - name: Department of Computer Science, University of Torino, Torino
    index: 2
- - name: Independent Researcher, Country
+ - name: Department of Pathology, Boston Children's Hospital, Harvard Medical School, Boston, MA, USA
    index: 3
+ - name: Department of Molecular Biotechnology and Health Sciences, University of Torino, Torino
+   index: 4
+ - name: Molecular Biotechnology Center & Department of Life Sciences and Systems Biology, University of Turin, Torino, Italy
+   index: 5
 date: 13 August 2017
 bibliography: paper.bib
 
