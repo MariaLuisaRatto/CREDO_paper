@@ -70,7 +70,7 @@ CREDO is organized in two modules namely CREDOengine and CREDOgui.
 CREDOengine allows the construction of Dockerfile/s embedding Python and/or R. The architecture of CREDOengine is organized in three layers, Fig.1.
 Layer 0 provides the possibility to create a Docker image embedding Python (0_PythonPackages) or R (0_RPackages). Layer 1 (1_mergeDocker) allows user to merge a Python Dockerfile with a R Dockerfile, previously generated at Layer 0. Layer 2, it provides the possibility to select various programming graphical interfaces (Jupyter lab, Jupyter notebook, Rstudio and Visual Studio), which can be accessed, in the built docker container, via web application (http://localhost:8888). Layer 3 (3_VMInDocker) configures the virtual environment to execute docker or singularity instances within a docker container, Fig. 1. This specific feature is useful in case the running docker container, requires executing the software embedded in another docker or in a singularity instance.
 <p align="center">
-  <img src="Figs/figs1.png" width="350" title="hover text">
+  <img src="Figs/figs1.png" width="350" title="Fig. 1. Structure of CREDOengine. For the generation of a Dockerfile at least one of the two modules in layer 0 must be used. Layer 1 is not mandatory, but, if used, it requires the presence of both Python and R modules defined in layer 0. Layer 2 is not compulsory, but it requires at least one module from layer 0 to be executed. Layer 3 is not compulsory, but it requires at least one module from layer 0. ">
 </p>
 
 # Citations
