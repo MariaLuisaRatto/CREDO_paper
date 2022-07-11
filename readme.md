@@ -134,4 +134,5 @@ License: GNU GPL
 The strength of the CREDO is the possibility to store, in a github compatible format, all the packages indicated in the Dockerfile, together with their dependencies. This characteristic improves the reproducibility, since, in case the docker image must be built from scratch, all the information needed are available on github. Furthermore, the availability of a friendly GUI, linked to the ability of CREDO of generating modular Docker Images, makes this tool an optimal solution for the efficient generation of docker images for life scientists.
 
 # References
+[@sei]
 <div id="refs"></div>
