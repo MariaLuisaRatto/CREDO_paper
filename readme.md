@@ -1,5 +1,5 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'CREDO: a friendly Customizable, REproducible, DOcker file generator'
 tags:
   - Docker 
   - Reproducibility
@@ -53,19 +53,11 @@ aas-doi:
 aas-journal: JOSS The Journal of Open Source Software
 ---
 
-# Summary
+# Abstract
 
-The forces on stars, galaxies, and dark matter under external gravitational
-fields lead to the dynamical evolution of structures in the universe. The orbits
-of these bodies are therefore key to understanding the formation, history, and
-future state of galaxies. The field of "galactic dynamics," which aims to model
-the gravitating components of galaxies to study their structure and evolution,
-is now well-established, commonly taught, and frequently used in astronomy.
-Aside from toy problems and demonstrations, the majority of problems require
-efficient numerical tools, many of which require the same base code (e.g., for
-performing numerical orbit integration).
+Containerization is a way of wrapping software, OS libraries and dependencies required to create an application that can be consistently run using different computing environments. Among the containerization frameworks proposed in literature Docker and Singularity are those most widely used for Unix-like OS. Docker engine opened the way to reproducibility in the bioinformatics arena. Indeed, nowadays, Docker containerization is extensively used to facilitate the distribution of bioinformatics workflows. However, the proper creation of Docker images can be still a complex task requiring advance competencies in computer science. CREDO, a friendly Customizable REproducible DOckerfile generator, was developed to make easy the creation of a docker image. Indeed, CREDO can create docker images including different software stacks as pip, conda, bioconda, github, R-CRAN and Bioconductor packages according to the user ‘s needs. CREDO simplifies a lot the way of building docker images embedding R and Python packages and it provides extra level of reproducibility since allowing to store in a github all the elements requied to build from scratch a docker image. CREDO also support a friendly GUI making this tool an optimal solution for the efficient and easy generation of docker images for life scientists.
 
-# Statement of need
+# Introduction
 
 `Gala` is an Astropy-affiliated Python package for galactic dynamics. Python
 enables wrapping low-level languages (e.g., C) for speed without losing
