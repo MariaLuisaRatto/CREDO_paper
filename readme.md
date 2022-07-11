@@ -50,7 +50,7 @@ affiliations:
 date: 11 July 2022
 bibliography: paper.bib
 aas-doi: 
-aas-journal: JOSS: The Journal of Open Source Software
+aas-journal: JOSS The Journal of Open Source Software
 ---
 
 # Summary
