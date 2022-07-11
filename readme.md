@@ -7,36 +7,33 @@ tags:
   - User Iinterface 
 authors:
   - name: Simone Alessandri'
-    equal-contrib: 1 
     affiliation: 1
-    email: asdasd
+    email: sim.alessandri@gmail.com
   - name: Rabellino Sergio
-    equal-contrib: 2 
+    email: sergio.rabellino@ unito.it
     affiliation: 2
   - name: Sandro Contaldo
-    equal-contrib: 3 
+    email: sandro.contaldo@edu.unito.it
     affiliation: 2
   - name: Maria Ratto
-    equal-contrib: 3
+    email: maria.ratto@edu.unito.it
     affiliation: 4
   - name: Gabriele Piacenti 
-    equal-contrib: 3
+    email: gabriele.piacenti@unito.it
     affiliation: 5
   - name: Qi Wang
-    equal-contrib: 3 
+    email: Qi.Wang@childrens.harvard.edu
     affiliation: 3
   - name: Marco Beccuti
-    equal-contrib: 4
+    email: marco.beccuti@unito.it
     affiliation: 2
   - name: Raffaele Adolfo Calogero
-    equal-contrib: 4 
+    email: raffaele.calogero@unito.it
+    corresponding: true
     affiliation: 4
   - name: Luca Alessandri
-    equal-contrib: 5 
+    email: "l.alessandri@unito.it,luca.alessandri@childrens.harvard.edu"
     affiliation: "3,4"
-  - name: Author with no affiliation
-    corresponding: true
-    affiliation: 3
 affiliations:
  - name: Politechnic of Turin, Torino, Italy
    index: 1
