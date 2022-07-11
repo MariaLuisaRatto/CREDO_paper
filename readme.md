@@ -103,7 +103,7 @@ CREDOengine container is running a docker in docker, where the shared folder of 
 ## CREDOgui
 CREDOgui facilitates the configuration of the various layers of the CREDOengine, Fig. 3.
 <p align="left">
-<img src="Figs/figs3.png" width="350" title="Fig3">
+<img src="Figs/figs3.png" width="900" title="Fig3">
 <em>Fig. 3. Screenshot of the CREDOgui. In the CREDOgui the dependencies among the different layers are more stringent, specifically any layer depends on the previous one.</em> 
 </p>
 
