@@ -64,7 +64,8 @@ Conda and Bioconda, together with packages distributed using Bioconductor and Gi
 In general, the creation of a Dockerfile, the core element for the creation of a docker image, including heterogeneous packages and environments (e.g. Bioconductor, Conda, etc.), is the most critical point for the generation of a docker image, being at the same time complex and time consuming, especially for not experienced people. CREDO, Customizable REproducible DOckerfile generator, software fixes some of the issues and difficulties described above, since it provides an easy way to build and customize a Dockerfile. CREDO provides at the same time a reproducible infrastructure and an easy way to distribute complete computing analysis workflow, e.g. docker images created by CREDO are perfectly suited to facilitate the distribution of complex code to reviewers or providing ready to go vignettes and tutorials (see supplementary information file). 
 CREDO is organized in two modules namely CREDOengine and CREDOgui.
 
-# Mathematics
+# Results
+##CREDOengine
 
 Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
 $a=2$
