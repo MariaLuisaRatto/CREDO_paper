@@ -7,34 +7,34 @@ tags:
   - User Iinterface 
 authors:
   - name: Simone Alessandri'
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    equal-contrib: true 
     affiliation: 1
   - name: Rabellino Sergio
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    equal-contrib: true 
     affiliation: 2
-      - name: Sandro Contaldo
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Sandro Contaldo
+    equal-contrib: true 
     affiliation: 2
-      - name: Maria Ratto
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Maria Ratto
+    equal-contrib: true
     affiliation: 4
-      - name: Gabriele Piacenti 
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Gabriele Piacenti 
+    equal-contrib: true
     affiliation: 5
-      - name: Qi Wang
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Qi Wang
+    equal-contrib: true 
     affiliation: 3
-      - name: Marco Beccuti
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Marco Beccuti
+    equal-contrib: true
     affiliation: 2
-      - name: Raffaele Adolfo Calogero
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Raffaele Adolfo Calogero
+    equal-contrib: true 
     affiliation: 4
-       - name: Luca Alessandri
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Luca Alessandri
+    equal-contrib: true 
     affiliation: "3,4"
   - name: Author with no affiliation
-    corresponding: true # (This is how to denote the corresponding author)
+    corresponding: true
     affiliation: 3
 affiliations:
  - name: Politechnic of Turin, Torino, Italy
