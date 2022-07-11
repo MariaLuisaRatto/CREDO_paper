@@ -9,6 +9,7 @@ authors:
   - name: Simone Alessandri'
     equal-contrib: 1 
     affiliation: 1
+    email: asdasd
   - name: Rabellino Sergio
     equal-contrib: 2 
     affiliation: 2
