@@ -32,7 +32,7 @@ authors:
     corresponding: true
     affiliation: 4
   - name: Luca Alessandri
-    email: "l.alessandri@unito.it,luca.alessandri@childrens.harvard.edu"
+    email: "l.alessandri@unito.it,luca.alessandri@childrens.harvard.edu,alessandri.luca91@gmail.com"
     affiliation: "3,4"
 affiliations:
  - name: Politechnic of Turin, Torino, Italy
